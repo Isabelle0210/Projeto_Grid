@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background: rgb(245, 241, 241);
+    box-sizing: border-box;
+}
+nav{
+    width: auto;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(248, 245, 245);
+}
+/* menu lateral inicio*/
+#menu_lateral{
+    display: inline-flex;
+}
+#barrinha-menu{
+    margin: 15px;
+}
+#menu{
+    width: 18px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+#menu_lateral img{
+    width: 90px;
+}
+/*fim*/
+
+/*inicio center*/
+#buttonCenter{
+    display: flex;
+}
+#buttonCenter input{
+    width: 348px;
+    height: 35px;
+    border: 1px solid rgba(204, 204, 204, 1)
+}
+#buttonCenter button{
+    width: 57px;
+    height: 36px;
+    border: 1px solid rgba(204, 204, 204, 1)
+}
+/*fim*/
+
+/*inicio fim lateral*/
+#Icons-lateral{
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+/*fim*/
+
+main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 998px;
+}
+.icons-aside{
+    padding: 0 30px 15px;
+    display: flex;
+    gap: 20px;
+}
+aside{
+    
+}
+section{
+    background: cadetblue;
+}
