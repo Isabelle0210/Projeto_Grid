@@ -4,7 +4,7 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    background: rgb(245, 241, 241);
+    background: rgb(255, 255, 255);
     box-sizing: border-box;
 }
 nav{
@@ -14,7 +14,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: rgb(248, 245, 245);
+    background: rgb(255, 255, 255);
 }
 /* menu lateral inicio*/
 #menu_lateral{
@@ -61,16 +61,36 @@ main{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 998px;
+    grid-template-rows: 900px;
 }
 .icons-aside{
     padding: 0 30px 15px;
     display: flex;
     gap: 20px;
 }
-aside{
-    
-}
 section{
-    background: cadetblue;
+    background-color: rgb(247, 245, 245);
+}
+.conteudo_principal{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template: repeat(3, 250px)/repeat(4,1fr);
+    gap: 30px;
+}
+.logo{
+    width: 50px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.img-principal{
+    margin-top: 15px;
+}
+.item{
+    display: grid;
+    grid-template: 2fr 1fr / 1fr;
+    justify-items: center;
+}
+.informacao{
+    display: inline-flex;
+
 }
