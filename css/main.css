@@ -71,26 +71,32 @@ main{
 section{
     background-color: rgb(247, 245, 245);
 }
+
+/*parte do conteudo*/
 .conteudo_principal{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template: repeat(3, 250px)/repeat(4,1fr);
-    gap: 30px;
-}
-.logo{
-    width: 50px;
-    margin-left: 20px;
-    object-fit: contain;
-}
-.img-principal{
-    margin-top: 15px;
+    grid-template: repeat(3,300px)/repeat(4,300px);
+    justify-content: center;
+    gap: 10px;
 }
 .item{
     display: grid;
-    grid-template: 2fr 1fr / 1fr;
-    justify-items: center;
+    grid-template: 180px 90px / 270px;
+    justify-content: center;
+    margin-top: 15px;
 }
-.informacao{
-    display: inline-flex;
-
+#container-foto img{
+    margin-top: 15px;
+    width: 270px;
+}
+#conteudo-secundario{
+    display: grid;
+    grid-template: 90px/80px 190px;
+}
+#conteudo-secundario img{
+    border-radius: 50px;
+}
+#conteudo-secundario div p{
+    font-size: 13px;
+    color: rgb(92, 92, 92);
 }
